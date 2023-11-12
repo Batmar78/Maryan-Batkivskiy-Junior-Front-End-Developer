@@ -24,7 +24,6 @@ button {
 }
 
 /* main styles */
-
 .main {
   display: flex;
   flex-direction: row-reverse;
