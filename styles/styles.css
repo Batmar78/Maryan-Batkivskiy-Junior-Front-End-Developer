@@ -7,6 +7,16 @@ body {
   background-color: #e5e5e5;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -34,13 +44,13 @@ button {
 .main-content {
   background-color: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 105px 90px;
+  padding: 85px 80px;
 }
 
 /* about styles  */
 
 .about {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .about-position {
@@ -49,22 +59,22 @@ button {
   font-size: 14px;
   line-height: 17px;
   color: #121212;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .about-name {
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   line-height: 55px;
   color: #121212;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .about-description {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
   color: #595959;
   width: 600px;
@@ -73,13 +83,13 @@ button {
 /* project styles  */
 
 .projects {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .title {
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 27px;
   color: #000000;
   margin-bottom: 10px;
@@ -93,7 +103,7 @@ button {
 .projects-item {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
   color: #000000;
 }
@@ -102,7 +112,7 @@ button {
 .project-link {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
   color: #595959;
 }
@@ -118,7 +128,7 @@ button {
 .project-brecket {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
   color: #000000;
 }
@@ -131,7 +141,7 @@ button {
   margin-left: 10px;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
   color: #595959;
 }
@@ -144,13 +154,13 @@ button {
 /* work styles  */
 
 .work {
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 
 .work-position {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   color: #000000;
   margin-bottom: 10px;
@@ -159,7 +169,7 @@ button {
 .organization {
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   color: #fb6d3a;
 }
@@ -167,7 +177,7 @@ button {
 .period {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 15px;
   color: #a8a8a8;
   margin-bottom: 10px;
@@ -176,7 +186,7 @@ button {
 .line {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 15px;
   color: #000000;
 }
@@ -189,7 +199,7 @@ button {
 .work-list-item {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
   color: #595959;
 }
@@ -199,7 +209,11 @@ button {
   margin-bottom: 10px;
 }
 
-.educational_institution {
+.school {
+  margin-bottom: 10px;
+}
+
+.educational-institution {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -277,7 +291,7 @@ button {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #565e6a;
+  color: #bcbcbc;
 }
 
 .tech-skills-list,
